@@ -11,3 +11,19 @@
 .header-component__content > * {
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 630px) {
+  .header-component__title {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-component {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .header-component__content {
+    margin-top: 1rem;
+  }
+}
