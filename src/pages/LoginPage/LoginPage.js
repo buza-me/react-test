@@ -10,7 +10,7 @@ export default function LoginPage({ location }) {
   return (
     <div className="login-page">
       <LoginChecker location={location} />
-      <Header title="Login">
+      <Header title="Login page">
         <Button>
           <Link to="/registration">sign up</Link>
         </Button>

@@ -8,7 +8,7 @@ import './RegistrationPage.css'
 export default function RegistrationPage() {
   return (
     <div className="registration-page">
-      <Header title="Sign up">
+      <Header title="Sign-up page">
         <Button>
           <Link to="/login">login</Link>
         </Button>
