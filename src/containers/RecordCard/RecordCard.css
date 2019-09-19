@@ -1,0 +1,39 @@
+.record-card-component {
+  width: 18rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+  transition: box-shadow .25s;
+  display: block;
+}
+.record-card-component:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
+}
+.record-card-component__icon-group {
+  display: flex;
+  justify-content: flex-end;
+}
+.record-card-component__icon-group_icon {
+  margin: 0 .35rem;
+}
+.record-card-component__icon-group_icon:last-child {
+  margin-right: 0;
+}
+.record-card-component__content {
+  margin: 1rem 0;
+}
+.record-card-component__content h3 {
+  font-weight: 500;
+}
+.record-card-component__copy-button {
+  margin-left: .5rem;
+}
+.record-card-component__content_password-field {
+  cursor: pointer;
+}
+.record-card-component footer {
+  display: flex;
+  justify-content: space-between;
+}
+.record-card-component em {
+  font-size: .7rem;
+}

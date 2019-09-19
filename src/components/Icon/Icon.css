@@ -1,0 +1,39 @@
+.icon-component {
+  background: #38aa41;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon-component.grey {
+  background: #a0a0a0;
+  color: inherit;
+}
+.icon-component.red {
+  background: #ff6347;
+}
+.icon-component.inline {
+  display: inline-flex;
+}
+.icon-component__tooltip {
+  display: none;
+  padding: .25rem;
+  background-color: #3d3d3d;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -100%);
+  font-size: .8rem;
+}
+.icon-component:hover .icon-component__tooltip {
+  display: block;
+}

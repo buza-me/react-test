@@ -1,0 +1,14 @@
+.index-page__add-record-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.index-page__records-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+.index-page__records-list_item {
+  margin: .5rem;
+}

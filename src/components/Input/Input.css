@@ -1,0 +1,12 @@
+.input-component {
+  padding: .25rem 1.5rem;
+  border: 1px solid #adadad;
+  border-radius: 3px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: box-shadow .25s;
+}
+.input-component:focus {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
+}

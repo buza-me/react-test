@@ -1,0 +1,38 @@
+.add-record-card-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.add-record-card-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.add-record-card-component__close-icon {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+}
+.add-record-card-component label {
+  width: 100%;
+  text-align: left;
+}
+.add-record-card-component__input-wrapper {
+  margin: .5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.add-record-card-component__submit-button {
+  margin: .5rem 0;
+}

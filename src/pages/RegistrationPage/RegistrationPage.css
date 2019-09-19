@@ -1,0 +1,5 @@
+.registration-page__signup-form-wrapper {
+  display: flex;
+  padding-top: 10rem;
+  justify-content: center;
+}

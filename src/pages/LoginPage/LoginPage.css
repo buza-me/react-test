@@ -1,0 +1,5 @@
+.login-page__login-form-wrapper {
+  display: flex;
+  padding-top: 10rem;
+  justify-content: center;
+}
