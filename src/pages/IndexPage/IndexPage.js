@@ -58,7 +58,7 @@ function IndexPage({
     const year = `${tempDate.getFullYear()}`;
     const month = tempDate.getMonth() + 1 < 10 ? `0${tempDate.getMonth() + 1}` : `${tempDate.getMonth() + 1}`;
     const day = tempDate.getDate() < 10 ? `0${tempDate.getDate()}` : `${tempDate.getDate()}`;
-    
+
     return `${year}.${month}.${day}`;
   };
   const postRecord = () => {
@@ -98,7 +98,7 @@ function IndexPage({
         />
         : null
       }
-      <Header title={email}>
+      <Header title="Dashboard page">
         <Button onClick={() => setAddRecordCardComponentIsActive(true)}>add record</Button>
         <Button onClick={logOutHandler}>log out</Button>
       </Header>
