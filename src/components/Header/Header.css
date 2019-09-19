@@ -11,6 +11,9 @@
 .header-component__content > * {
   margin-left: 1rem;
 }
+.header-component__content > *:first-child {
+  margin-left: 0;
+}
 
 @media screen and (max-width: 630px) {
   .header-component__title {
@@ -21,7 +24,10 @@
   .header-component {
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .header-component__title {
+    text-align: center;
   }
   .header-component__content {
     margin-top: 1rem;
