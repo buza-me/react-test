@@ -45,7 +45,6 @@ export default function RecordCard({
           <i className="fas fa-trash" />
         </Icon>
       </header>
-
       <main className="record-card-component__content">
         <h3>title:</h3>
         <p>{title}</p>
@@ -73,7 +72,6 @@ export default function RecordCard({
           }
         </p>
       </main>
-
       <footer>
         {createdAt ? <em>created: {createdAt}</em> : null}
         {editedAt ? <em>edited: {editedAt}</em> : null}

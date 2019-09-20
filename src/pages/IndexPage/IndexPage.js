@@ -7,7 +7,6 @@ import Spinner from '../../components/Spinner/Spinner';
 import RecordCard from '../../containers/RecordCard/RecordCard';
 import DeleteConfirm from '../../components/DeleteConfirm/DeleteConfirm';
 import AddRecordCard from '../../components/AddRecordCard/AddRecordCard';
-import Icon from '../../components/Icon/Icon';
 import {
   setEmail,
   getRecordsAsync,

@@ -7,15 +7,10 @@ import {
   DELETE_RECORD
 } from './actionTypes';
 
-export const setEmail = email => ({
-    type: SET_EMAIL,
-    email
-});
-export const setSpin = spin => ({
+const setSpin = spin => ({
     type: SET_SPIN,
     spin
 });
-
 const writeRecordsToStore = records => ({
     type: WRITE_RECORDS,
     records
@@ -31,6 +26,11 @@ const updateRecordInStore = record => ({
 const deleteRecordFromStore = id => ({
     type: DELETE_RECORD,
     id
+});
+
+export const setEmail = email => ({
+  type: SET_EMAIL,
+  email
 });
 
 export const getRecordsAsync = email => async dispatch => {

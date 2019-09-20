@@ -47,7 +47,7 @@ export default function LoginForm() {
           <Input
             onChange={handlePasswordInput}
             value={passwordInputValue}
-            type="text"
+            type="password"
             name="password-input"
           />
         </div>

@@ -51,7 +51,7 @@ function LoginForm({ setEmail }) {
         <Input
           onChange={handlePasswordInput}
           value={passwordInputValue}
-          type="text"
+          type="password"
           name="password-input"
         />
       </div>

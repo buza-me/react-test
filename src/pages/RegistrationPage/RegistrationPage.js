@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import SignUpForm from '../../containers/SignUpForm/SignUpForm';
 import Button from '../../components/Button/Button';
 import Header from '../../components/Header/Header';
-import './RegistrationPage.css'
+import './RegistrationPage.css';
 
 export default function RegistrationPage() {
   return (
@@ -17,5 +17,5 @@ export default function RegistrationPage() {
         <SignUpForm />
       </div>
     </div>
-  )
-}
+  );
+};
